@@ -10,6 +10,11 @@
   h2 { color: #1E293B; margin-top: 30px; }
   p, li { line-height: 1.7; }
   ul { padding-left: 20px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 16px; font-size: 15px; }
+  th { background: #2563EB; color: white; padding: 10px 14px; text-align: left; }
+  td { padding: 9px 14px; border-bottom: 1px solid #e2e8f0; }
+  tr:nth-child(even) td { background: #f8fafc; }
+  .badge { background: #dcfce7; color: #16a34a; font-size: 12px; font-weight: bold; padding: 2px 7px; border-radius: 4px; margin-left: 6px; }
 </style>
 </head>
 <body>
@@ -26,7 +31,7 @@
   <li>Names and phone numbers of saved contacts</li>
   <li>Emergency contacts</li>
   <li>App settings (e.g. auto-call 112)</li>
-  <li>Subscription status (managed by Google Play)</li>
+  <li>Subscription status and active plan (managed by Google Play)</li>
 </ul>
 <p>None of this data is transmitted to our servers. Everything stays on your phone.</p>
 
@@ -41,8 +46,45 @@
 <p>You can revoke any permission at any time in Android Settings → Apps → ENID → Permissions.</p>
 
 <h2>4. Subscription & payments</h2>
-<p>ENID offers a monthly subscription (€4.99/month) with a 3-day free trial. All payment processing is handled exclusively by Google Play. We do not store any payment data.</p>
-<p>The subscription renews automatically unless cancelled at least 24 hours before the end of the current period. Cancel anytime in Google Play → Subscriptions.</p>
+<p>ENID is available in the following subscription plans, each with a <strong>3-day free trial</strong>:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Plan</th>
+      <th>Price</th>
+      <th>Billing period</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Monthly</td>
+      <td>€4.99</td>
+      <td>Every month</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>3 Months</td>
+      <td>€12.99</td>
+      <td>Every 3 months</td>
+      <td><span class="badge">Save 13%</span></td>
+    </tr>
+    <tr>
+      <td>6 Months</td>
+      <td>€22.99</td>
+      <td>Every 6 months</td>
+      <td><span class="badge">Save 23%</span></td>
+    </tr>
+    <tr>
+      <td>1 Year</td>
+      <td>€39.99</td>
+      <td>Every 12 months</td>
+      <td><span class="badge">Save 33%</span></td>
+    </tr>
+  </tbody>
+</table>
+<p>All payment processing is handled exclusively by Google Play. We do not store any payment data.</p>
+<p>Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. Cancel anytime in Google Play → Subscriptions.</p>
 
 <h2>5. Third-party services</h2>
 <ul>
