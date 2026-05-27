@@ -13,9 +13,9 @@
 
   <nav class="nav">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo">ENID</a>
+      <a href="https://enidapp.de" class="nav-logo">ENID</a>
       <div class="nav-links">
-        <a href="index.html">Home</a>
+        <a href="https://enidapp.de">Home</a>
         <a href="privacy.html" class="active">Datenschutz</a>
         <a href="terms.html">AGB</a>
       </div>
@@ -33,7 +33,7 @@
       <div class="container">
         <p class="eyebrow">Rechtliches</p>
         <h1>Datenschutzerklaerung</h1>
-        <p class="hero-sub">Zuletzt aktualisiert: Mai 2026</p>
+        <p class="hero-sub">Zuletzt aktualisiert: Mai 2025</p>
       </div>
     </header>
     <main class="main">
@@ -43,7 +43,7 @@
           <h2>1. Verantwortlicher</h2>
           <p>Verantwortlich fuer die Verarbeitung personenbezogener Daten im Sinne der DSGVO ist:</p>
           <div class="card">
-            <p><strong>BCKM Studios</strong><br />Henry Beckemeyer & Raoul Weller<br />support@enidapp.de</p>
+            <p><strong>BCKM Studios</strong><br />Henry Beckemeyer<br />support@enidapp.de</p>
           </div>
         </section>
 
@@ -57,18 +57,18 @@
           <p>Folgende Daten werden ausschliesslich lokal auf dem Geraet gespeichert:</p>
           <ul>
             <li>Name des Nutzers (fuer die persoenliche Begruessung)</li>
-            <li>Ausgewaehlte Kontakte fuer die Schnellwahl</li>
+            <li>Ausgewaehlte Kontakte fuer die Schnellwahl (max. 6)</li>
             <li>App-Einstellungen (Sprache, PIN, Widget-Auswahl)</li>
-            <li>Notfallkontakte</li>
+            <li>Notfallkontakte und SOS-Nachricht</li>
           </ul>
           <p>Diese Daten verlassen das Geraet nicht, ausser der Nutzer aktiviert explizit eine Funktion, die eine Verbindung erfordert.</p>
         </section>
 
         <section class="section">
           <h2>4. SOS und Standortfunktion</h2>
-          <p>Die SOS-Funktion ist ein zentrales Element von ENID. Wenn der Nutzer den Notfallknopf betaetigt, kann die App optional den aktuellen Standort an hinterlegte Notfallkontakte uebermitteln.</p>
+          <p>Die SOS-Funktion sendet bei Betaetigung des Notfallknopfes eine SMS-Benachrichtigung an alle hinterlegten Notfallkontakte. Optional wird ein GPS-Standortlink (Google Maps) mitgesendet.</p>
           <div class="highlight-box">
-            <p>Der Standort wird <strong>ausschliesslich manuell</strong> durch Antippen des SOS-Knopfes ausgeloest. Es findet keine automatische oder Hintergrund-Standorterfassung statt.</p>
+            <p>Der Standort wird <strong>ausschliesslich manuell</strong> durch Antippen des SOS-Knopfes ausgeloest. Es findet keine automatische oder Hintergrund-Standorterfassung statt. ENID ist kein Notrufsystem und ersetzt nicht den Notruf 112.</p>
           </div>
           <p>Die Standortberechtigung kann jederzeit in den Geraete-Einstellungen widerrufen werden.</p>
         </section>
@@ -81,28 +81,29 @@
             <li><strong>SMS / Nachrichten:</strong> Fuer die SOS-Benachrichtigung per Textnachricht</li>
             <li><strong>Standort (optional):</strong> Nur bei aktivierter SOS-Standortfunktion</li>
           </ul>
+          <p>Alle Berechtigungen koennen jederzeit in den Geraete-Einstellungen deaktiviert werden.</p>
         </section>
 
         <section class="section">
           <h2>6. Keine Werbung, kein Tracking</h2>
-          <p>ENID verwendet keine Werbenetzwerke, keine Analyse-Dienste und kein nutzerbezogenes Tracking.</p>
+          <p>ENID verwendet keine Werbenetzwerke, keine Analyse-Dienste und kein nutzerbezogenes Tracking. Es werden keine Verhaltensdaten oder Nutzungsstatistiken an externe Dienste uebermittelt.</p>
         </section>
 
         <section class="section">
           <h2>7. Firebase / Crashlytics</h2>
-          <p>Zur Stabilitaetsverbesserung nutzt ENID Google Firebase Crashlytics. Bei einem App-Absturz werden anonymisierte technische Informationen uebermittelt. Diese enthalten keine persoenlichen Daten.</p>
+          <p>Zur Stabilitaetsverbesserung nutzt ENID Google Firebase Crashlytics. Bei einem App-Absturz werden anonymisierte technische Informationen (Geraetetyp, Betriebssystemversion, Fehlermeldung) uebermittelt. Diese Daten enthalten keine persoenlichen Informationen.</p>
           <p><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Datenschutz</a></p>
         </section>
 
         <section class="section">
           <h2>8. Abonnements und Zahlungen</h2>
-          <p>Zahlungen werden vollstaendig ueber den jeweiligen App Store abgewickelt. ENID hat keinen Zugriff auf Zahlungsdaten. Abonnement-Management erfolgt ueber RevenueCat.</p>
+          <p>Zahlungen werden vollstaendig ueber den jeweiligen App Store abgewickelt. ENID hat keinen Zugriff auf Zahlungsdaten. Das Abonnement-Management erfolgt ueber RevenueCat.</p>
           <p><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Datenschutz</a></p>
         </section>
 
         <section class="section">
           <h2>9. Datensicherheit</h2>
-          <p>Alle lokal gespeicherten sensiblen Daten werden verschluesselt auf dem Geraet abgelegt. Der PIN-Schutz wird ausschliesslich lokal verifiziert.</p>
+          <p>Alle lokal gespeicherten sensiblen Daten (PIN, Kontakte) werden verschluesselt auf dem Geraet abgelegt (PBKDF2-Hashing mit Salt). Der PIN-Schutz wird ausschliesslich lokal verifiziert.</p>
         </section>
 
         <section class="section">
@@ -115,16 +116,22 @@
             <li>Widerspruch gegen die Verarbeitung</li>
             <li>Datenuebertragbarkeit</li>
           </ul>
+          <p>Da ENID Daten ausschliesslich lokal speichert, kannst du alle Daten ueber Einstellungen &rarr; "Alle Daten loeschen" oder durch Deinstallation der App entfernen. Der Abonnementstatus bleibt davon unberuehrt.</p>
           <p>Fuer Anfragen: <a href="mailto:support@enidapp.de">support@enidapp.de</a></p>
         </section>
 
         <section class="section">
-          <h2>11. Aenderungen</h2>
+          <h2>11. Kinder</h2>
+          <p>ENID richtet sich an Senioren und Erwachsene. Die App ist nicht fuer Kinder unter 13 Jahren bestimmt.</p>
+        </section>
+
+        <section class="section">
+          <h2>12. Aenderungen</h2>
           <p>Wir behalten uns vor, diese Datenschutzerklaerung bei Bedarf anzupassen. Die aktuelle Version ist stets unter dieser URL abrufbar.</p>
         </section>
 
         <section class="section">
-          <h2>12. Kontakt</h2>
+          <h2>13. Kontakt</h2>
           <p><a href="mailto:support@enidapp.de">support@enidapp.de</a></p>
         </section>
 
@@ -159,21 +166,20 @@
 
         <section class="section">
           <h2>3. Data Stored Locally</h2>
-          <p>The following data is stored exclusively on your device:</p>
           <ul>
             <li>User name (for personalized greeting)</li>
-            <li>Selected contacts for quick dial</li>
+            <li>Selected contacts for quick dial (max. 6)</li>
             <li>App settings (language, PIN, widget selection)</li>
-            <li>Emergency contacts</li>
+            <li>Emergency contacts and SOS message</li>
           </ul>
-          <p>This data does not leave your device unless you explicitly activate a feature that requires a connection.</p>
+          <p>This data does not leave your device unless you explicitly activate a feature requiring a connection.</p>
         </section>
 
         <section class="section">
           <h2>4. SOS and Location</h2>
-          <p>The SOS feature is central to ENID. When the user taps the emergency button, the app can optionally share the current location with stored emergency contacts.</p>
+          <p>The SOS function sends an SMS notification to all stored emergency contacts when the emergency button is tapped. Optionally, a GPS location link (Google Maps) is included.</p>
           <div class="highlight-box">
-            <p>Location is shared <strong>only manually</strong> by tapping the SOS button. No automatic or background location tracking takes place.</p>
+            <p>Location is shared <strong>only manually</strong> by tapping the SOS button. No automatic or background location tracking takes place. ENID is not an emergency call system and does not replace emergency services (112 / 911).</p>
           </div>
           <p>Location permission can be revoked at any time in device settings.</p>
         </section>
@@ -195,7 +201,7 @@
 
         <section class="section">
           <h2>7. Firebase / Crashlytics</h2>
-          <p>ENID uses Google Firebase Crashlytics for stability improvements. In case of a crash, anonymized technical information is transmitted. This data contains no personal information.</p>
+          <p>ENID uses Google Firebase Crashlytics for stability. In case of a crash, anonymized technical information is transmitted. This contains no personal data.</p>
           <p><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy</a></p>
         </section>
 
@@ -207,7 +213,7 @@
 
         <section class="section">
           <h2>9. Data Security</h2>
-          <p>All locally stored sensitive data is encrypted on the device. PIN verification is handled exclusively on-device.</p>
+          <p>All locally stored sensitive data is encrypted on the device (PBKDF2 hashing with salt). PIN verification is handled exclusively on-device.</p>
         </section>
 
         <section class="section">
@@ -220,16 +226,22 @@
             <li>Objection to processing</li>
             <li>Data portability</li>
           </ul>
+          <p>You can delete all data via Settings &rarr; "Delete All My Data" or by uninstalling the app. Subscription status is unaffected.</p>
           <p>For requests: <a href="mailto:support@enidapp.de">support@enidapp.de</a></p>
         </section>
 
         <section class="section">
-          <h2>11. Changes</h2>
+          <h2>11. Children</h2>
+          <p>ENID is intended for seniors and adults. The app is not directed at children under 13.</p>
+        </section>
+
+        <section class="section">
+          <h2>12. Changes</h2>
           <p>We reserve the right to update this Privacy Policy. The current version is always available at this URL.</p>
         </section>
 
         <section class="section">
-          <h2>12. Contact</h2>
+          <h2>13. Contact</h2>
           <p><a href="mailto:support@enidapp.de">support@enidapp.de</a></p>
         </section>
 
@@ -245,7 +257,7 @@
         <a href="terms.html">AGB / Terms</a>
         <a href="mailto:support@enidapp.de">Kontakt</a>
       </div>
-      <p class="footer-copy">&copy; 2026 BCKM Studios. Alle Rechte vorbehalten.</p>
+      <p class="footer-copy">&copy; 2025 BCKM Studios. Alle Rechte vorbehalten.</p>
     </div>
   </footer>
 
