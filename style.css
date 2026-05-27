@@ -299,3 +299,33 @@ a:hover {
     font-size: 1.1rem;
   }
 }
+
+/* LANG TOGGLE */
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  padding: 2px 4px;
+  transition: color 0.2s;
+}
+
+.lang-btn.active {
+  color: var(--green);
+  font-weight: 600;
+}
+
+.lang-btn:hover {
+  color: var(--green);
+}
